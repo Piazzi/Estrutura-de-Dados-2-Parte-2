@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1559257370 source:c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\main.cpp
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<bits/stdc++.h>
+	<chrono>
+	"Registro.h"
+	"Saida.h"
+	"Startup.h"
+
+1557163889 c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\registro.h
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<bits/stdc++.h>
+
+1557781285 c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\saida.h
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<bits/stdc++.h>
+
+1559257339 c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\startup.h
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<bits/stdc++.h>
+	"Registro.h"
+
+1559257382 source:c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\registro.cpp
+	"Registro.h"
+
+1559257392 source:c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\saida.cpp
+	"Saida.h"
+
+1559257414 source:c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\startup.cpp
+	"Startup.h"
+
