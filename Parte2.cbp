@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Registro.cpp" />
+		<Unit filename="Registro.h" />
+		<Unit filename="Saida.cpp" />
+		<Unit filename="Saida.h" />
+		<Unit filename="Startup.cpp" />
+		<Unit filename="Startup.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

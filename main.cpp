@@ -18,8 +18,8 @@ extern int numComparacoes;
 extern int numCopias;
 
 /**
- * Fun��o que troca o valor de duas vari�veis usando uma
- * vari�vel auxiliar
+ * Função que troca o valor de duas vari�veis usando uma
+ * variável auxiliar
  *
  * @param int *x
  * @param int *y
@@ -164,7 +164,7 @@ void Menu()
         cout << "[0] = Sair" << endl;
 
         cin >> option;
-
+        /*
         switch (option)
         {
         case 1:
@@ -180,6 +180,7 @@ void Menu()
             Run(3, saida.mergeSort);
             break;
         }
+        */
 
 }
 
@@ -187,6 +188,5 @@ int main()
 {
 
     Menu();
-
     return 0;
 }

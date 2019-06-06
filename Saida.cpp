@@ -2,6 +2,7 @@
 
 Saida::~Saida()
 {
+    /*
     mergeSort.close();
     insertionSort.close();
     quickSort.close();
@@ -11,9 +12,21 @@ Saida::~Saida()
     heapSort.close();
     quickSortMediana.close();
     quickSortInsercao.close();
+    */
 
 }
 
+void Saida::getArvoreB()
+{
+
+}
+
+void Saida::getArvoreVermelhoPreto()
+{
+
+}
+
+/*
 void Saida::getInsertion()
 {
     insertionSort.open("insertion.txt", ios::out);
@@ -58,3 +71,4 @@ void Saida::getQuickInsercao()
 {
     quickSortInsercao.open("quickInsercao.txt", ios::out);
 }
+*/
