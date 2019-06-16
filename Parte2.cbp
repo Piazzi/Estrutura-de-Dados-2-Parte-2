@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,13 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ArvoreVermelhoPreto.cpp" />
+		<Unit filename="ArvoreVermelhoPreto.h" />
 		<Unit filename="Registro.cpp" />
 		<Unit filename="Registro.h" />
 		<Unit filename="Saida.cpp" />
 		<Unit filename="Saida.h" />
 		<Unit filename="Startup.cpp" />
 		<Unit filename="Startup.h" />
+		<Unit filename="include/ArvoreB.h" />
+		<Unit filename="include/Pagina.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/ArvoreB.cpp" />
+		<Unit filename="src/Pagina.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
