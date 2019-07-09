@@ -232,8 +232,6 @@ No* ArvoreVermelhoPreto::inserirNo(int valor, No *no, Registro &registro)
         {
             numComparacoes++;
             pai = no;
-                    cout << "aaa";
-
             if(valor < no->getValor())
                 no = no->getEsquerda();
             else

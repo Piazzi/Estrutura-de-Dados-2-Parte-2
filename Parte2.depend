@@ -108,13 +108,20 @@
 
 1560639663 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.h
 
-1560646826 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\pagina.cpp
+1562682622 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\pagina.cpp
 	"Pagina.h"
 	"ArvoreB.h"
 
-1560646796 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\pagina.h
+1562682993 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\pagina.h
 
-1560646844 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\arvoreb.h
+1562682984 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\arvoreb.h
+	"Pagina.h"
+
+1560639663 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.cpp
+	"No.h"
+
+1562682819 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\arvoreb.cpp
+	"ArvoreB.h"
 	"Pagina.h"
 
 1562705897 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\arvorevermelhopreto.cpp

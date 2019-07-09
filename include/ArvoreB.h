@@ -9,15 +9,15 @@ class ArvoreB
         ArvoreB();
         ArvoreB(int ordem);
         virtual ~ArvoreB();
-        int getOrdem();
-        void insere(Pagina p);
-        Pagina busca();
+        void insere(int n);
+        Pagina busca(int n);
+        Pagina *raiz;
+        int ordem;
 
     protected:
 
     private:
-        Pagina *raiz;
-        int ordem;
+
 };
 
 #endif // ARVOREB_H
