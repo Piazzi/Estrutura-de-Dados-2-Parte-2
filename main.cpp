@@ -8,6 +8,7 @@
 #include "Registro.h"
 #include "Saida.h"
 #include "Startup.h"
+#include "ArvoreVermelhoPreto.h"
 
 
 using namespace std;
@@ -154,6 +155,14 @@ void Run(int algoritmo, ofstream &saida)
 void Menu()
 {
     Saida saida;
+    Registro registro;
+    ArvoreVermelhoPreto avp;
+    avp.inserir(1,registro);
+    avp.inserir(2,registro);
+    avp.inserir(3,registro);
+    avp.imprimir();
+    avp.inserir(3,registro);
+    avp.imprimir();
 
     int option = -1;
 

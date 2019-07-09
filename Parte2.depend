@@ -117,3 +117,77 @@
 1560646844 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\arvoreb.h
 	"Pagina.h"
 
+1562705897 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\arvorevermelhopreto.cpp
+	"ArvoreVermelhoPreto.h"
+	<stdio.h>
+
+1562704280 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\arvorevermelhopreto.h
+	"No.h"
+	"Registro.h"
+
+1562705781 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\no.h
+	<string>
+
+1562705571 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\main.cpp
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<bits/stdc++.h>
+	<chrono>
+	"Registro.h"
+	"Saida.h"
+	"Startup.h"
+	"ArvoreVermelhoPreto.h"
+
+1562591221 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\registro.h
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<bits/stdc++.h>
+
+1562591221 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\saida.h
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<bits/stdc++.h>
+
+1562591221 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\startup.h
+	<iostream>
+	<random>
+	<stdlib.h>
+	<math.h>
+	<bits/stdc++.h>
+	"Registro.h"
+
+1562591221 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\registro.cpp
+	"Registro.h"
+
+1562591221 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\saida.cpp
+	"Saida.h"
+
+1562705781 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\no.cpp
+	"No.h"
+	<iostream>
+
+1562591221 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\src\pagina.cpp
+	"Pagina.h"
+	"ArvoreB.h"
+
+1562591221 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\include\pagina.h
+
+1562591221 c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\include\arvoreb.h
+	"Pagina.h"
+
+1562591221 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\startup.cpp
+	"Startup.h"
+
+1562592139 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\src\arvoreb.cpp
+	"ArvoreB.h"
+	"Pagina.h"
+	"../Registro.h"
+
