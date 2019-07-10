@@ -23,21 +23,32 @@ ArvoreB::~ArvoreB()
 
 void ArvoreB::insere(int n){
     if(raiz==nullptr){
+        raiz = new Pagina(ordem,true);
         raiz->chaves[0]= n;
-        raiz->numChaves++;
-    }
-    if(raiz->numChaves == 2*ordem+ 1){
-        Pagina *novaPag = new Pagina(ordem,false);
-        novaPag->filhos[0] = raiz;
-        //novaPag->split(0,raiz);
-        int i=0;
-        if(novaPag->chaves[0]<n){
-            i++;
-        }
-        //novaPag->filhos[i]->inserePaginaComEspaço(n);
-        raiz = novaPag;
+        raiz->numChaves = 1;
     }
     else{
-        //raiz->inserePaginaComEspaco(n);
+        if(raiz->numChaves == 2*ordem - 1){
+            Pagina *novaPag = new Pagina(ordem,false);
+            novaPag->filhos[0] = raiz;
+            novaPag->split(0,raiz);
+            int i=0;
+            if(novaPag->chaves[0]<n){
+                i++;
+            }
+            novaPag->filhos[i]->insereNaPagina(n);
+            raiz = novaPag;
+        }
+        else{
+            raiz->insereNaPagina(n);
+        }
     }
 }
+
+void ArvoreB::imprime(){
+    if (raiz != nullptr){
+        raiz->imprime();
+    }
+}
+
+

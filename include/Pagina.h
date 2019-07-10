@@ -17,6 +17,9 @@ class Pagina
         int numChaves;//número de chaves atuais
         bool ehFolha;//boolean se a página é uma folha
         Pagina *busca(int n);
+        void insereNaPagina(int n);
+        void split(int k,Pagina *p);
+        void imprime();
 
     protected:
 

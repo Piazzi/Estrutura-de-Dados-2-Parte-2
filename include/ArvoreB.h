@@ -13,6 +13,7 @@ class ArvoreB
         Pagina busca(int n);
         Pagina *raiz;
         int ordem;
+        void imprime();
 
     protected:
 

@@ -55,7 +55,7 @@
 1559861979 c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\arvorevermelhopreto.h
 	"No.h"
 
-1560639950 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\main.cpp
+1562722651 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\main.cpp
 	<iostream>
 	<random>
 	<stdlib.h>
@@ -66,6 +66,8 @@
 	"Registro.h"
 	"Saida.h"
 	"Startup.h"
+	"ArvoreVermelhoPreto.h"
+	"ArvoreB.h"
 
 1560639663 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\registro.h
 	<iostream>
@@ -99,30 +101,35 @@
 1560639663 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\startup.cpp
 	"Startup.h"
 
-1560639663 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\arvorevermelhopreto.cpp
+1562718651 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\arvorevermelhopreto.cpp
 	"ArvoreVermelhoPreto.h"
 	<stdio.h>
 
-1560639663 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\arvorevermelhopreto.h
+1562718651 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\arvorevermelhopreto.h
 	"No.h"
+	"Registro.h"
 
-1560639663 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.h
+1562718651 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.h
+	<string>
 
-1562682622 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\pagina.cpp
+1562722275 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\pagina.cpp
+	<iostream>
 	"Pagina.h"
 	"ArvoreB.h"
 
-1562682993 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\pagina.h
+1562721138 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\pagina.h
 
-1562682984 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\arvoreb.h
+1562721373 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\arvoreb.h
 	"Pagina.h"
 
-1560639663 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.cpp
+1562718651 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.cpp
 	"No.h"
+	<iostream>
 
-1562682819 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\arvoreb.cpp
+1562722635 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\arvoreb.cpp
 	"ArvoreB.h"
 	"Pagina.h"
+	"../Registro.h"
 
 1562705897 source:c:\users\usuário\desktop\estrutura-de-dados-2-parte-2\arvorevermelhopreto.cpp
 	"ArvoreVermelhoPreto.h"

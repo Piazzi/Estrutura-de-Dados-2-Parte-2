@@ -9,6 +9,7 @@
 #include "Saida.h"
 #include "Startup.h"
 #include "ArvoreVermelhoPreto.h"
+#include "ArvoreB.h"
 
 
 using namespace std;
@@ -154,7 +155,7 @@ void Run(int algoritmo, ofstream &saida)
 
 void Menu()
 {
-    Saida saida;
+    /*Saida saida;
     Registro registro;
     ArvoreVermelhoPreto avp;
     avp.inserir(1,registro);
@@ -163,7 +164,7 @@ void Menu()
     avp.imprimir();
     avp.inserir(3,registro);
     avp.imprimir();
-
+    */
     int option = -1;
 
         cout << "Escolha qual algoritmo voce quer usar: " << endl;
@@ -195,7 +196,16 @@ void Menu()
 
 int main()
 {
-
-    Menu();
+    //Menu();
+    ArvoreB t(3);
+    t.insere(10);
+    t.insere(20);
+    t.insere(5);
+    t.insere(6);
+    t.insere(12);
+    t.insere(30);
+    t.insere(7);
+    t.insere(17);
+    t.imprime();
     return 0;
 }
