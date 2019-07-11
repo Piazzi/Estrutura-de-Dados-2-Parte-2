@@ -44,9 +44,11 @@
 		<Unit filename="Saida.h" />
 		<Unit filename="Startup.cpp" />
 		<Unit filename="Startup.h" />
+		<Unit filename="include/AlgoritmoLZW.h" />
 		<Unit filename="include/ArvoreB.h" />
 		<Unit filename="include/Pagina.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AlgoritmoLZW.cpp" />
 		<Unit filename="src/ArvoreB.cpp" />
 		<Unit filename="src/Pagina.cpp" />
 		<Extensions>

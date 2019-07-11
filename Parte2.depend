@@ -55,7 +55,7 @@
 1559861979 c:\users\lucas\desktop\ed2p2\estrutura-de-dados-2-parte-2\arvorevermelhopreto.h
 	"No.h"
 
-1562722651 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\main.cpp
+1562818754 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\main.cpp
 	<iostream>
 	<random>
 	<stdlib.h>
@@ -68,6 +68,7 @@
 	"Startup.h"
 	"ArvoreVermelhoPreto.h"
 	"ArvoreB.h"
+	"AlgoritmoLZW.h"
 
 1560639663 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\registro.h
 	<iostream>
@@ -112,7 +113,7 @@
 1562718651 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\no.h
 	<string>
 
-1562722275 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\pagina.cpp
+1562723894 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\pagina.cpp
 	<iostream>
 	"Pagina.h"
 	"ArvoreB.h"
@@ -204,4 +205,14 @@
 	"ArvoreB.h"
 	"Pagina.h"
 	"../Registro.h"
+
+1562819520 source:c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\src\algoritmolzw.cpp
+	"AlgoritmoLZW.h"
+	<iostream>
+
+1562818026 c:\users\bsacr\desktop\ufjf\ed2-parte2\estrutura-de-dados-2-parte-2\include\algoritmolzw.h
+	<string>
+	<map>
+	<algoritmoLZW.H>
+	<vector>
 

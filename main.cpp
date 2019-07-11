@@ -10,6 +10,7 @@
 #include "Startup.h"
 #include "ArvoreVermelhoPreto.h"
 #include "ArvoreB.h"
+#include "AlgoritmoLZW.h"
 
 
 using namespace std;
@@ -191,21 +192,14 @@ void Menu()
             break;
         }
         */
-
 }
 
 int main()
 {
     //Menu();
-    ArvoreB t(3);
-    t.insere(10);
-    t.insere(20);
-    t.insere(5);
-    t.insere(6);
-    t.insere(12);
-    t.insere(30);
-    t.insere(7);
-    t.insere(17);
-    t.imprime();
+    AlgoritmoLZW x;
+    string s="jejunojejuno";
+    x.comprimir(s);
+    cout << endl;
     return 0;
 }
